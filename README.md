@@ -15,5 +15,9 @@ d.	Male vs. female distribution
 4.	Machine Learning Models: Utilizing scikit-learn, we will experiment with various machine learning models, including the Random Forest Classifier, Decision Tree, and Deep Learning Model . The model's performance will be evaluated based on accuracy.
 5.	Resampling: We resampled the data to balance the dataset through SMOTE and Random Oversampler prior to building our models to investigate if this improves the prediction accuracy.
 6.	Confusion Matrix: We will generate a confusion matrix to further evaluate the model's performance.
-7.	Web Application: A Flask web application will be created to showcase the project's findings. Users can input data such as age, BMI, and hypertension to predict stroke occurrence.
+7.	Web Application: A Flask web application will be created to showcase the project's findings. Users can input data such as age, BMI, and hypertension to predict stroke occurrence. The Flask web application will deploy the machine learning model that yielded that highest accuracy: Random Forest Classfier at 99%. 
 
+## Credits:
+* For Smote oversampler:
+    - <https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification>
+    - <https://www.blog.trainindata.com/overcoming-class-imbalance-with-smote>

@@ -12,8 +12,8 @@ b.	Hypertension vs. no hypertension
 c.	Stroke vs. no stroke
 d.	Male vs. female distribution
 3.	Correlation Analysis: We will perform correlation tests between different factors and the likelihood of stroke. Factors with low correlation to stroke will be excluded when building the machine learning model.
-4.	Machine Learning Models: Utilizing scikit-learn, we will experiment with various supervised and unsupervised learning models, including the Random Forest Classifier. The model's performance will be evaluated based on accuracy.
-5.	Resampling: We may resample the data and re-run our models to investigate if this improves the prediction accuracy.
+4.	Machine Learning Models: Utilizing scikit-learn, we will experiment with various machine learning models, including the Random Forest Classifier, Decision Tree, and Deep Learning Model . The model's performance will be evaluated based on accuracy.
+5.	Resampling: We resampled the data to balance the dataset through SMOTE and Random Oversampler prior to building our models to investigate if this improves the prediction accuracy.
 6.	Confusion Matrix: We will generate a confusion matrix to further evaluate the model's performance.
 7.	Web Application: A Flask web application will be created to showcase the project's findings. Users can input data such as age, BMI, and hypertension to predict stroke occurrence.
 
